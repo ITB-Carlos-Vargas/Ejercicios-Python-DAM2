@@ -20,7 +20,7 @@ while not valido:
                 print("Factura total: 6€")
             case _ if litros >= 50 and litros < 200:
                 print("Factura total: ", litros * 0.1, "€")
-            case _ if listros >= 200:
+            case _ if litros >= 200:
                 print("Factura total: ",litros * 0.3, "€")
             case _:
                 print("No se puedo realizar la operacín correctamente.")
